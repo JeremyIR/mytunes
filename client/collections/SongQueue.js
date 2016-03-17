@@ -7,4 +7,5 @@ var SongQueue = Songs.extend({
   playFirst: function() {
     
   }
+  
 });
