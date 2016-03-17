@@ -15,13 +15,14 @@ var SongQueue = Songs.extend({
     }, this);
 
     this.on('dequeue', function(arg) {
-      debugger;
       this.remove(arg);
     }, this);
+
+
   },
 
   playFirst: function() {
-    
+    this.at(0).play();
   },
 
 });
